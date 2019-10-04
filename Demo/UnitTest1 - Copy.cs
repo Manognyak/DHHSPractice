@@ -22,7 +22,7 @@ namespace Demo
             ////DesiredCapabilities capability = DesiredCapabilities.Chrome();
             ////capability.setBrowserName("chrome");
             ////capability.setPlatform(Platform.XP);
-
+            //comment
             //driver = new RemoteWebDriver(new URL(),capability);
             DesiredCapabilities Capabilities = new DesiredCapabilities();
             Capabilities.SetCapability(CapabilityType.BrowserName, "chrome");
